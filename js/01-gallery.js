@@ -3,7 +3,7 @@ import { galleryItems } from "./gallery-items.js";
 const gallery = document.querySelector(".gallery");
 
 function setGalleryItem(item) {
-  const galleryItem = document.createElement("li");
+  const galleryItem = document.createElement("div");
   galleryItem.classList.add("gallery__item");
   const galleryLink = document.createElement("a");
   galleryLink.classList.add("gallery__link");
